@@ -17,7 +17,7 @@ public class MainController {
     }
 
     @GetMapping(path="", produces= MediaType.APPLICATION_JSON_VALUE)
-    public List<AnimalDto> allArticles() {
+    public List<AnimalDto> allAnimals() {
         return animalService.findAll();
     }
 
