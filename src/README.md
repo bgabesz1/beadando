@@ -1,0 +1,1 @@
+Be kell importálni fejlesztő környezetbe(intelij, eclipse) a projectet, buildelni a pom.xml, majd a http://localhost:8080/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config#/main-controller/allStudents -oldalon elérhető.
