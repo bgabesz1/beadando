@@ -25,11 +25,11 @@ public class AnimalSerimp implements AnimalService {
     }
 
     @Override
-    public Long save(AnimalDto articleDto) {
+    public Long save(AnimalDto animalDto) {
         if (animalrepo.findAll().size()>=Maxanimal){
             throw new ToomuchanimalExc();
         }
-        return animalrepo.save(articleDto);
+        return animalrepo.save(animalDto);
     }
 
     @Override
